@@ -1,0 +1,18 @@
+{
+  "name": "JS libraries",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lite-server --baseDir=\"vacations\""
+  },
+  "keywords": [],
+  "author": "Romina Arce Angulo",
+  "license": "private",
+  "private": true,
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "granim": "^2.0.0"
+  }
+}

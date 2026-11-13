@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css reset -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+    <!-- external css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- fullpage.js Stylesheet install -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.41/fullpage.css" integrity="sha512-RKqkJ6a4jdBSkJWAUhGwsoYPluwh04j9FI2x4SMDHhHsmII4bSlyivMNMiUYakw0Gvqe8OEFkhrC6CLfU9K3Ig==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- aos stylesheet -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>JS Libraries - Flyvel</title>
+</head>
+<body>
+    <!-- to make the fullpage.js work, I cannot use some of the semantic html tags and mostly divide the page by sections-->
+    <div id="fullpage">
+        <div class="section" id="header">
+            <canvas id="canvas-basic"></canvas>
+            <h1 id="#box">Ready to escape reality?</h1>
+            <h2>Welcome to Flyvel, your path to rest.</h2>
+        </div>
+        <div class="section" id="sdest">
+            <h3>Popular destinations</h3>
+            <div id="pdest">
+                <article class="ndest">
+                    <a data-fslightbox href="assets/images/mexico_dest.jpg">
+                        <img src="assets/images/mexico_dest.jpg" alt="Mexico destination" srcset="">
+                    </a>
+                    <h4>Mexico</h4>
+                </article>
+                <article class="ndest">
+                    <a data-fslightbox href="assets/images/carib_dest.jpg">
+                        <img src="assets/images/carib_dest.jpg" alt="Caribbean destination" srcset="">
+                    </a>
+                    <h4>Caribbean</h4>
+                </article>
+                <article class="ndest">
+                    <a data-fslightbox href="assets/images/aruba_dest.jpg">
+                        <img src="assets/images/aruba_dest.jpg" alt="Aruba destination" srcset="">
+                    </a>
+                    <h4>Aruba</h4>
+                </article>
+                <article class="ndest">
+                    <a data-fslightbox href="assets/images/jamaica_dest.jpg">
+                        <img src="assets/images/jamaica_dest.jpg" alt="Jamaica destination" srcset="">
+                    </a>
+                    <h4>Jamaica</h4>
+                </article>
+            </div>
+        </div>
+        <!-- offers -->
+        <div class="section" id="offers">
+            <h3>Our deals</h3>
+            <div id="doffers">
+                <article class="noffers">
+                    <img src="assets/images/blackfriday_offer.jpg" alt="">
+                    <h4>Black Friday Deals</h4>
+                </article>
+                <article class="noffers">
+                    <img src="assets/images/warmwinter_offer.jpg" alt="">
+                    <h4>Warm Winter Destinations</h4>
+                </article>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="section" id="footer">
+            <ul>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Terms & Privacy</a>
+                </li>
+            </ul>
+            <p>© Flyvel 2026</p>
+        </div>
+    </div>
+    <!-- fullpage.js install -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.41/fullpage.js" integrity="sha512-oYJp0kvb+rgSCh6KZCOV9oNVrkehpxMrQXfgDMJD8e24q6HwTlOBgrGV0XVPNuZ6yA/U77Cor66JyiYKR0c0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- granim -->
+    <script src="https://cdn.jsdelivr.net/npm/granim@2.0.0/dist/granim.min.js"></script>
+    <!-- choreographer -->
+    <script src="assets/js/choreographer.min.js"></script>
+    <!-- flighbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.8.0/index.js" integrity="sha512-j7D1CQQOXqtxvYtX+ENBnkPQ6+jtv937qf2H8dN5KwIj56b2ZEf1XKVHJCprOgPg+M6BlHPCrGKhUR+4wMIVuQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- json script -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
